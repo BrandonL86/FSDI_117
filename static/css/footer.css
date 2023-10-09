@@ -1,0 +1,20 @@
+footer{
+    height: 20rem;
+    /* margin-top: 4rem; */
+    border-top: solid 1px var(--accent-color-shade);
+    justify-content: space-between;
+}
+
+footer img{
+    width: 6rem;
+}
+
+footer nav{
+    width: max-content;
+}
+
+footer nav a{
+    color: var(--background-color);
+    text-decoration: none;
+    margin: 0px 0.5rem;
+}

@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} About me {% endblock title %}
+
+{% block content %}
+
+
+<section id="about" class="about-section">
+
+    <div class="img-container center">
+        <div class="pulse pulse1"></div>
+        <div class="pulse pulse2"></div>
+        <img id="about-img" src="{% static 'img/portfolio_me.png' %}" alt="">
+    </div>
+
+    <div class="description-container center">
+
+        <div class="center" style="flex-direction: column;">
+            <h1> Frontend Developer</h1>
+            <h2>Brandon Lile</h2>
+        </div>
+
+        <p>Welcome to my Fullstack Developer portfolio, where creativity meets functionality. With a passion for both front-end and back-end technologies, I've crafted a diverse range of web applications and sites that showcase my expertise. From responsive user interfaces designed with HTML, CSS, and JavaScript to robust server-side logic using Python, Node.js, and more, my projects demonstrate a deep understanding of the full development stack. Dive in to explore how I turn ideas into interactive and seamless digital experiences. If you're seeking a developer who can deliver end-to-end solutions, you've come to the right place.
+        
+        </p>
+        <div class="skills-list center">
+            <h2>SKILLS</h2>
+
+            <div class="skills center">
+                <label> HTML</label>
+                <label> CSS</label>
+                <label> Javascript</label>
+                <label> React</label>
+                <label> Python</label>
+                <label> Django</label>
+                <label> Mongo DB</label>
+                <label> Adobe Creative Cloud</label>
+                <label> Figma</label>
+                <label> Skill</label>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
